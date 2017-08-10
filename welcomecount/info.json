@@ -1,0 +1,10 @@
+{
+  "NAME": "WelcomeCount",
+  "AUTHOR": "BabylonWanderer",
+  "SHORT": "Fleet Welcome messages with slightly different functionality.",
+  "HIDDEN": false,
+  "TAGS": [ "welcome", "FA" ],
+  "DESCRIPTION": "Welcome message that counts the number of daily users who joined. Also, each time a user joins, the previous welcome message is deleted.",
+  "REQUIREMENTS": [],
+  "INSTALL_MSG": "Use `[p]wcount` to manage settings."
+}

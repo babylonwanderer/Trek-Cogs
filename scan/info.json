@@ -1,0 +1,9 @@
+{
+    "AUTHOR" : "Babylonwanderer",
+    "INSTALL_MSG" : "Usage: `[p]scan <user>`",
+    "NAME" : "scan",
+    "SHORT" : "Scans the selected user",
+    "DESCRIPTION" : "Instructs the BOT to Scan a selected user with a Tricorder..",
+    "TAGS" : ["Fun", "FA"],
+    "HIDDEN" : false
+}

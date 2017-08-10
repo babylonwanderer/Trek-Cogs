@@ -1,0 +1,8 @@
+{
+    "AUTHOR" : "BabylonWanderer",
+    "DESCRIPTION" : "Ferengi Rules of Aquisition",
+    "DISABLED" : false,
+    "SHORT" : "Random Rule of Acquisition",
+    "NAME" : "RoA",
+    "INSTALL_CMD" : "\nMessage from BabylonWanderer:\n\nHi there. I see you've loaded one of my cogs.  Thanks and have fun!"
+}

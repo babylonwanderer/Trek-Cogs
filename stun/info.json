@@ -1,0 +1,9 @@
+{
+    "AUTHOR" : "Babylonwanderer",
+    "INSTALL_MSG" : "Usage: `[p]stun <user>`",
+    "NAME" : "stun",
+    "SHORT" : "Stuns the selected user",
+    "DESCRIPTION" : "Instructs the BOT to Stun a selected user with a phaser..",
+    "TAGS" : ["Fun", "FA"],
+    "HIDDEN" : false
+}

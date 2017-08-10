@@ -1,0 +1,13 @@
+{
+    "339036375695228928" : {
+        "CHANNELS" : {
+            "339036375695228928" : {
+                "ENABLED" : true,
+                "LAST_MESSAGE" : "343788258234335235",
+                "MESSAGE" : "<:com:340419025131798529> Hey look...  it's {mention}!\n\n{count} new members joined so far Today!"
+            }
+        },
+        "COUNT" : 3,
+        "DAY" : "2017-08-06"
+    }
+}

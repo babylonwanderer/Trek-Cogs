@@ -1,0 +1,9 @@
+{
+    "AUTHOR" : "BabylonWanderer",
+    "SHORT" : "Casino mini game system",
+    "DESCRIPTION" : "Allows you to create your own Casino system. Can play blackjack, coin, dice, allin, war, hi-lo, and cups.",
+    "DISABLED" : false,
+    "NAME" : "Casino",
+    "REQUIREMENTS" : ["tabulate", "python-dateutil"],
+    "TAGS" : ["casino", "games", "gambling", "economy"],
+}

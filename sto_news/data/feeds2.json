@@ -1,0 +1,11 @@
+{
+    "339036375695228928" : {
+        "339475290734460928" : {
+            "STO NEWS" : {
+                "last" : "Join Star Trek Online at Star Trek Las Vegas!",
+                "template" : "$name:\n$title\nhttp://www.arcgames.com$link",
+                "url" : "http://www.arcgames.com/en/games/star-trek-online/news/rss"
+            }
+        }
+    }
+}

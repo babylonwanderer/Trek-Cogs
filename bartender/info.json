@@ -1,0 +1,9 @@
+{
+    "AUTHOR" : "BabylonWanderer",
+    "INSTALL_MSG" : "Done.",
+    "NAME" : "Bartender",
+    "SHORT" : "Buy some drinks at the bar with Fleet Credits.",
+    "DESCRIPTION" : "Buy some drinks at the bar with Fleet Credits.",
+    "TAGS" : ["alcohol", "beer", "bartender", "buy", "store"],
+    "REQUIREMENTS" : ["emoji"]
+}

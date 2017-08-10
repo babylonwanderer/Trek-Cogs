@@ -1,0 +1,8 @@
+{
+    "AUTHOR" : "BabylonWanderer",
+    "DESCRIPTION" : "STO RSS Feeds",
+    "DISABLED" : false,
+    "SHORT" : "Reads STO RSS Feeds",
+    "NAME" : "RSS",
+    "REQUIREMENTS" : ["feedparser"],
+}

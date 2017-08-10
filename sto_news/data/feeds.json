@@ -1,0 +1,12 @@
+{
+    "339036375695228928" : {
+        "339475290734460928" : {},
+        "339531473885331477" : {
+            "STO NEWS" : {
+                "last" : "LeVar Burton - and more - from our STLV Panel!",
+                "template" : "$name:\n$title\nhttp://www.arcgames.com$link",
+                "url" : "http://www.arcgames.com/en/games/star-trek-online/news/rss"
+            }
+        }
+    }
+}
