@@ -3,7 +3,7 @@ from discord.ext import commands
 
 rules = {
     1:  "Once you have their money, never give it back"
-    2:  "You cant cheat an honest customer, but it never hurts to try"
+    2:  "You cant cheat an honest customer, but it never hurts to try""
     3:  "Never spend more for an acquisition than you have to"
     4:  "Sex and profit are the two things that never last long enough"
     5:  "If you can't break a contract, bend it"
