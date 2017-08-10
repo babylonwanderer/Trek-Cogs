@@ -316,5 +316,5 @@ class Rules:
 
 
 def setup(bot):
-    n = Rules(bot)
+    n = RoA(bot)
     bot.add_cog(n)
