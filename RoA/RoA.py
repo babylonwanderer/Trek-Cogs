@@ -203,7 +203,7 @@ rules = {
     199:  "The secret of one person is another person's opportunity",
     200:  "A madman with Latinum means profit without return",
     201:  "The justification for profit is profit",
-    202:  "a)  A friend in need is a customer in the making",
+    202:  "a)  A friend in need is a customer in the making"
           "b)  A friend in need means three times the profit",
     203:  "A Ferengi in need, will never do anything for free",
     204:  "When the Grand Nagus arrives to offer you a business opportunity, it's time to leave town until he's gone",
