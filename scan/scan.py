@@ -13,7 +13,7 @@ class Scan:
 
         #Your code will go here
         await self.bot.say("takes <:tricorder:340431262613241866> readings of " + user.mention + ", and conducts an analysis the results.")
-        await self.bot.say("It's Life " + user.author + "....  but not as we know it!!!.")
+        await self.bot.say("It's Life " + message.author + "....  but not as we know it!!!.")
 
 
 def setup(bot):
