@@ -14,7 +14,7 @@ class Scan:
 
         #Your code will go here
         await self.bot.say("takes <:tricorder:340431262613241866> readings of " + user.mention + ", and conducts an analysis the results.")
-        await asyncio.sleep(10)
+        await asyncio.sleep(15)
         await self.bot.say("<:tricorder:340431262613241866> readings indicate it is a lifeform, but I have NEVER see anything even remotely similar!!!. :confused:")
 
 
