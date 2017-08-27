@@ -1,0 +1,7 @@
+{
+    "AUTHOR" : "BabylonWanderer",
+    "INSTALL_MSG" : "Hope you like it!.",
+    "NAME" : "Announcer",
+    "SHORT" : "An announcements cog",
+    "DESCRIPTION" : "An announcement cog that sends a message to any number of servers in configurable channels"
+}
