@@ -1,0 +1,8 @@
+{
+    "AUTHOR" : "BabylonWanderer",
+    "DESCRIPTION" : "Schedule commands to run once, or on repeat.",
+    "DISABLED" : false,
+    "SHORT" : "Schedule commands to run.",
+    "NAME" : "Scheduler",
+    "INSTALL_MSG" : "\nHi there. I see you've loaded one of my cogs. Congratulations!"
+}
