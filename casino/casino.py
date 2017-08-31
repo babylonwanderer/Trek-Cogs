@@ -26,17 +26,17 @@ from tabulate import tabulate
 from dateutil import parser
 
 try:
-    l_path = "data/Trek-Cogs/casino/data/languages.json"
+    l_path = "data/JumperCogs/casino/data/languages.json"
     lang_data = dataIO.load_json(l_path)
     lang_default = lang_data["Language"]
-    language_set = gettext.translation('casino', localedir='data/Trek-Cogs/casino/data',
+    language_set = gettext.translation('casino', localedir='data/JumperCogs/casino/data',
                                        languages=[lang_default])
     language_set.install()
 except FileNotFoundError:
     _ = lambda s: s
 
 # Default settings that is created when a server begin's using Casino
-server_default = {"System Config": {"Casino Name": "Babylon Palace", "Casino Open": True,
+server_default = {"System Config": {"Casino Name": "Crystal's Palace", "Casino Open": True,
                                     "Chip Name": "Jump", "Chip Rate": 1, "Default Payday": 100,
                                     "Payday Timer": 1200, "Threshold Switch": False,
                                     "Threshold": 10000, "Credit Rate": 1, "Transfer Limit": 1000,
@@ -234,7 +234,7 @@ class CasinoBank:
             return []
 
     def save_system(self):
-        dataIO.save_json("data/Trek-Cogs/casino/casino.json", self.memberships)
+        dataIO.save_json("data/JumperCogs/casino/casino.json", self.memberships)
 
     def check_server_settings(self, server):
         if server.id not in self.memberships["Servers"]:
@@ -486,7 +486,7 @@ class Casino:
             self.legacy_available = True
         except FileNotFoundError:
             self.legacy_available = False
-        self.file_path = "data/Trek-Cogs/casino/casino.json"
+        self.file_path = "data/JumperCogs/casino/casino.json"
         self.casino_bank = CasinoBank(bot, self.file_path)
         self.version = "1.7.16"
         self.cycle_task = bot.loop.create_task(self.membership_updater())
@@ -518,11 +518,11 @@ class Casino:
 
         if response.content.title() in languages:
             language = languages[response.content.title()]
-            lang = gettext.translation('casino', localedir='data/Trek-Cogs/casino/data',
+            lang = gettext.translation('casino', localedir='data/JumperCogs/casino/data',
                                        languages=[language])
             lang.install()
 
-            fp = "data/Trek-Cogs/casino/data/languages.json"
+            fp = "data/JumperCogs/casino/data/languages.json"
             l_data = dataIO.load_json(fp)
             l_data["Language"] = language
             dataIO.save_json(fp, l_data)
@@ -2582,15 +2582,15 @@ class Casino:
 
 
 def check_folders():
-    if not os.path.exists("data/Trek-Cogs/casino"):
-        print("Creating data/Trek-Cogs/casino folder...")
-        os.makedirs("data/Trek-Cogs/casino")
+    if not os.path.exists("data/JumperCogs/casino"):
+        print("Creating data/JumperCogs/casino folder...")
+        os.makedirs("data/JumperCogs/casino")
 
 
 def check_files():
     system = {"Servers": {}}
 
-    f = "data/Trek-Cogs/casino/casino.json"
+    f = "data/JumperCogs/casino/casino.json"
     if not dataIO.is_valid_json(f):
         print(_("Creating default casino.json..."))
         dataIO.save_json(f, system)
@@ -2604,7 +2604,7 @@ def setup(bot):
     if logger.level == 0:
         logger.setLevel(logging.INFO)
         # Rotates to a new file every 10mb, up to 5
-        handler = logging.handlers.RotatingFileHandler(filename='data/Trek-Cogs/casino/casino.log',
+        handler = logging.handlers.RotatingFileHandler(filename='data/JumperCogs/casino/casino.log',
                                                        encoding='utf-8', backupCount=5,
                                                        maxBytes=100000)
         handler.setFormatter(logging.Formatter('%(asctime)s %(name)-12s %(message)s',
