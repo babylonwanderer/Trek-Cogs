@@ -39,7 +39,7 @@ except FileNotFoundError:
 server_default = {"System Config": {"Casino Name": "Crystal's Palace", "Casino Open": True,
                                     "Chip Name": "Jump", "Chip Rate": 1, "Default Payday": 100,
                                     "Payday Timer": 1200, "Threshold Switch": False,
-                                    "Threshold": 10000, "Credit Rate": 1, "Transfer Limit": 1000,
+                                    "Threshold": 100000, "Credit Rate": 1, "Transfer Limit": 1000,
                                     "Transfer Cooldown": 30, "Version": 1.716
                                     },
                   "Memberships": {},
@@ -61,7 +61,7 @@ server_default = {"System Config": {"Casino Name": "Crystal's Palace", "Casino O
                             }
                   }
 
-new_user = {"Chips": 100,
+new_user = {"Chips": 5000,
             "Membership": None,
             "Pending": 0,
             "Played": {"Dice Played": 0, "Cups Played": 0, "BJ Played": 0, "Coin Played": 0,
