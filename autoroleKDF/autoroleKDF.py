@@ -8,8 +8,8 @@ import string
 import os
 
 
-class Autorole:
-    """Autorole commands."""
+class AutoroleKDF:
+    """AutoroleKDF commands."""
 
     def __init__(self, bot):
         self.bot = bot
