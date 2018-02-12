@@ -164,7 +164,7 @@ class AutoroleKDF:
                 await self._verify_json(e)
 
     @commands.group(name="autoroleKDF", pass_context=True, no_pm=True)
-    async def autorole(self, ctx):
+    async def autoroleKDF(self, ctx):
         """Change settings for autorole
 
         Requires the manage roles permission"""
@@ -196,7 +196,7 @@ class AutoroleKDF:
         server = ctx.message.server
         if self.settings[server.id]["ROLE"] is None:
             await self.bot.say("You haven't set a role to give to new users! "
-                               "Use `{}autorole role \"role\"` to set it!"
+                               "Use `{}autoroleKDF role \"role\"` to set it!"
                                .format(ctx.prefix))
         else:
             if self.settings[server.id]["ENABLED"] is True:
@@ -276,7 +276,7 @@ def setup(bot):
     check_folders()
     check_files()
 
-    n = Autorole(bot)
+    n = AutoroleKDF(bot)
     bot.add_cog(n)
     bot.add_listener(n._roler, "on_member_join")
     bot.add_listener(n._verify_json, "on_error")
