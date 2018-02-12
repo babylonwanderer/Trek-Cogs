@@ -1,0 +1,7 @@
+{
+    "AUTHOR" : "BabylonWanderer",
+    "SHORT" : "Grants member Role after agreeing to the Rules.",
+    "DESCRIPTION" : "Grants member Role after the user agrees to the Rules.",
+    "DISABLED" : false,
+    "NAME" : "autoroleKDF",
+}
